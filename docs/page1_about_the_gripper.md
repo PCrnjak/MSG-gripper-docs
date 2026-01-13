@@ -12,9 +12,24 @@ Grip force can be adjusted allowing you to grasp a wide range of items; from del
 
 Mechanical files and firmware are open source allowing you to add a custom griping tool and attach it to any robotic arm or robot. Gripper software is also open-source.
 
+## **Building your own**
 
-If you plan to build MSG gripper by yourself you will need to source all the parts from [this BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md).<br />
-After that you can follow the [assembly manual](Coming soon) to assemble your gripper.
+If you plan to build MSG gripper by yourself you will need to:
+
+Print files from STEP files folder
+
+Example: For 100 mm rail style gripper
+
+- print everything from "common parts" folder
+- everything from "Linear rail dependant parts" folder -> "100mm rail" folder
+- everything from "Stepper dependant parts" folder depending on what stepper size you are using
+
+-------------------------------------------------------------------------------------------------------
+
+* Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
+* Follow [Assembly instructions *coming soon](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
+* Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
+
 
 
 ## **General specs:**
